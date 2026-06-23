@@ -1,6 +1,6 @@
-import logging
+# v2 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppInfo
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
+ telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 logging.basicConfig(level=logging.INFO)
 
